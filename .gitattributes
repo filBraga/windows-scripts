@@ -1,0 +1,4 @@
+# Keep Windows line endings (CRLF) exactly as committed.
+# Registry Editor expects CRLF in .reg files.
+*.reg -text
+*.ps1 -text

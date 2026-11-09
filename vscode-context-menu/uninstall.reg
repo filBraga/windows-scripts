@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Removes the "Open ... in VS Code" right-click menu items added by install.ps1.
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\OpenInVSCode]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\shell\OpenInVSCode]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\OpenInVSCode]
